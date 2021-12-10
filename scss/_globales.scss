@@ -1,0 +1,74 @@
+html { /* etiqueta raíz */
+    font-size: 62.5%;
+ }
+ 
+ *{
+     margin:0px;
+     padding: 0px;
+ }
+
+ body{
+     font-family: 'Merriweather', serif;
+ }
+
+ body {
+    background: rgb(236, 235, 235);
+}
+
+h1 {
+    font-size: 3.8rem;
+}
+
+h2 {
+    font-size: 3.4rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.6rem;
+}
+
+p {
+    font-size: 2rem;
+}
+
+img {
+    width: 100%;
+}
+
+.titulo {
+    color: #ffffff;
+    text-align: center;
+    font-size: 7rem;
+    background-color: #292727b6;
+    margin-bottom: 5rem;
+}
+
+.contenedor {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.boton {
+    padding-top: 1rem;
+    text-align: right;
+    margin: 2rem 0 4rem 0;
+}
+
+.boton a {
+    border: solid 2px #000000;
+    font-size: 2.5rem;
+    padding: 1rem;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: .5rem;
+    background-color: rgb(87, 107, 145);
+    transition: background-color .3s;
+}
+
+.boton a:hover {
+    background-color: #000000;
+}

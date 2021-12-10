@@ -1,0 +1,303 @@
+@charset "UTF-8";
+html {
+  /* etiqueta raíz */
+  font-size: 62.5%; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Merriweather', serif; }
+
+body {
+  background: #ecebeb; }
+
+h1 {
+  font-size: 3.8rem; }
+
+h2 {
+  font-size: 3.4rem; }
+
+h3 {
+  font-size: 3rem; }
+
+h4 {
+  font-size: 2.6rem; }
+
+p {
+  font-size: 2rem; }
+
+img {
+  width: 100%; }
+
+.titulo {
+  color: #ffffff;
+  text-align: center;
+  font-size: 7rem;
+  background-color: #292727b6;
+  margin-bottom: 5rem; }
+
+.contenedor {
+  width: 80%;
+  margin: 0 auto; }
+
+.boton {
+  padding-top: 1rem;
+  text-align: right;
+  margin: 2rem 0 4rem 0; }
+
+.boton a {
+  border: solid 2px #000000;
+  font-size: 2.5rem;
+  padding: 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: .5rem;
+  background-color: #576b91;
+  transition: background-color .3s; }
+
+.boton a:hover {
+  background-color: #000000; }
+
+header {
+  background-image: url(../img/header.jpg);
+  background-position: center center;
+  background-size: cover; }
+  header .header__logo {
+    text-align: center; }
+  @media (max-width: 480px) {
+    header .header__logo-img {
+      width: 100%; } }
+  @media (min-width: 1200px) {
+    header .header__logo-img {
+      width: 80rem; } }
+  header .header__nav {
+    text-align: center;
+    font-weight: 800;
+    background-color: #000000;
+    padding: 1.5rem;
+    font-size: 3.5rem; }
+    header .header__nav a {
+      color: #ffffff;
+      text-decoration: none;
+      margin: 0 .5rem; }
+    header .header__nav a:hover {
+      color: #b3aeae; }
+  @media (max-width: 550px) {
+    header .header__nav {
+      display: flex;
+      flex-direction: column; }
+      header .header__nav a {
+        margin: 1rem 0; } }
+  @media (min-width: 768px) {
+    header .header__nav a {
+      margin: 0 2rem; } }
+
+main {
+  background-image: url(../img/zonas.png);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 60rem; }
+  main .contenedor_zonas {
+    display: flex;
+    flex-wrap: wrap; }
+    main .contenedor_zonas .zona {
+      text-align: center;
+      flex: 0 0 calc(50% - 2rem);
+      margin: 4rem 1rem; }
+      main .contenedor_zonas .zona .zona__img {
+        width: 90%;
+        height: 35rem; }
+      main .contenedor_zonas .zona .zona__info {
+        background-image: linear-gradient(to right, #ffffffad, #bdb5b5ad);
+        border-radius: 3rem;
+        font-size: 2rem;
+        text-align: center;
+        margin: 0 auto;
+        padding: 2rem;
+        border: solid 2px #000000; }
+    @media (max-width: 768px) {
+      main .contenedor_zonas .zona {
+        text-align: center;
+        flex: 0 0 calc(100% - 2rem);
+        margin: 4rem 1rem; } }
+
+#turismo {
+  background-image: url(../img/turismo.jpg);
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; }
+  #turismo .contenedor-turismo {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; }
+  @media (max-width: 768px) {
+    #turismo .contenedor-turismo {
+      width: 85%; } }
+  #turismo .turismo {
+    flex: 0 0 calc(33% - 2rem);
+    margin-right: 1rem; }
+    #turismo .turismo .turismo__img {
+      display: flex;
+      max-width: 35rem;
+      height: 35rem;
+      border-radius: 100%;
+      margin: 0 auto; }
+    #turismo .turismo .turismo__info {
+      background-image: linear-gradient(to right, #ffffffad, #bdb5b5d2);
+      border-radius: 3rem;
+      font-size: 2rem;
+      text-align: center;
+      margin: 0 auto;
+      padding: 2rem;
+      border: solid 2px #000000; }
+  @media (max-width: 768px) {
+    #turismo .turismo {
+      flex: 0 0 calc(100% - 2rem);
+      margin-right: 1rem; }
+    #turismo .info-turismo {
+      width: 80%; } }
+  #turismo .turismo__enlace {
+    text-align: right;
+    margin: 1rem 0; }
+    #turismo .turismo__enlace a {
+      font-size: 2rem;
+      color: #ffffff;
+      text-decoration: none;
+      background-color: #9e6905;
+      padding: .5rem;
+      border: solid 2px #000000;
+      border-radius: .5rem;
+      transition: background-color .3s; }
+    #turismo .turismo__enlace a:hover {
+      background-color: #000000; }
+
+.nosotros__text p {
+  font-size: 3rem;
+  text-align: center;
+  width: 100rem;
+  margin: 0 auto;
+  background-image: linear-gradient(to right, #ffffffad, #bdb5b5ad);
+  padding: 2rem;
+  border-radius: 3rem; }
+
+@media (max-width: 768px) {
+  .text-nosotros p {
+    width: 80%; } }
+
+form {
+  width: 50%;
+  background-image: linear-gradient(to right, #ffffffad, #bdb5b5ad);
+  border-radius: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 0 auto;
+  padding: 2rem;
+  border: solid 2px #000000; }
+  form .form__datos {
+    font-size: 2rem;
+    margin-bottom: 2rem; }
+    form .form__datos input {
+      width: 20rem;
+      height: 3rem;
+      font-size: 2rem; }
+  form .form__msj {
+    font-size: 2rem; }
+    form .form__msj textarea {
+      width: 50rem;
+      height: 10rem;
+      font-size: 2rem; }
+  form .form__submit input {
+    padding: 1.5rem;
+    font-size: 2rem; }
+  form .form__submit input:hover {
+    cursor: pointer; }
+  form div label {
+    font-weight: 800; }
+
+.nav__interna {
+  display: flex;
+  width: 80rem;
+  font-size: 4rem;
+  text-align: center;
+  background-color: #ffffffad;
+  margin: 2rem auto;
+  padding: 2rem;
+  border-radius: 4rem; }
+  .nav__interna img {
+    width: 21rem;
+    height: 20rem;
+    transition: all .5s; }
+  .nav__interna a {
+    margin: 0 auto;
+    text-decoration: unset; }
+    .nav__interna a p {
+      font-size: 3rem;
+      font-weight: 800;
+      color: #000000; }
+  .nav__interna a:hover img {
+    width: 24rem;
+    height: 23rem; }
+  .nav__interna .nav__interna--selected img {
+    width: 24rem;
+    height: 23rem; }
+  .nav__interna .nav__interna--selected p {
+    text-decoration: underline; }
+
+@media (max-width: 768px) {
+  .nav__interna {
+    flex-direction: column;
+    width: 80%; } }
+
+.contenedor-alquiler,
+.contenedor-comida,
+.contenedor-actividades {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem; }
+  .contenedor-alquiler .alquiler,
+  .contenedor-alquiler .comida,
+  .contenedor-alquiler .actividades,
+  .contenedor-comida .alquiler,
+  .contenedor-comida .comida,
+  .contenedor-comida .actividades,
+  .contenedor-actividades .alquiler,
+  .contenedor-actividades .comida,
+  .contenedor-actividades .actividades {
+    width: 30rem;
+    text-align: center;
+    background-color: #ffffff;
+    border: solid .5rem #000000;
+    margin: 2rem auto; }
+
+@media (max-width: 1490px) {
+  .contenedor-alquiler,
+  .contenedor-comida,
+  .contenedor-actividades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
+
+@media (max-width: 1080px) {
+  .contenedor-alquiler,
+  .contenedor-comida,
+  .contenedor-actividades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (max-width: 720px) {
+  .contenedor-alquiler,
+  .contenedor-comida,
+  .contenedor-actividades {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); } }
+
+footer {
+  text-align: center;
+  background-color: #000000; }
+  footer .copyright {
+    color: #ffffff;
+    font-size: 2rem;
+    padding: 1.5rem; }

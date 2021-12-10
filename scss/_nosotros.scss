@@ -1,0 +1,15 @@
+.nosotros__text p {
+    font-size: 3rem;
+    text-align: center;
+    width: 100rem;
+    margin: 0 auto;
+    background-image: linear-gradient(to right, #ffffffad, #bdb5b5ad);
+    padding: 2rem;
+    border-radius: 3rem;
+}
+
+@media (max-width: 768px) {
+    .text-nosotros p {
+        width: 80%;
+    }
+}

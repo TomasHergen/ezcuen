@@ -1,0 +1,66 @@
+#turismo {
+    background-image: url(../img/turismo.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    .contenedor-turismo {
+        width: 95%;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    @media (max-width: 768px) {
+        .contenedor-turismo {
+            width: 85%;
+        }
+    }
+    .turismo {
+        flex: 0 0 calc(33% - 2rem);
+        margin-right: 1rem;
+        .turismo__img {
+            display: flex;
+            max-width: 35rem;
+            height: 35rem;
+            border-radius: 100%;
+            margin: 0 auto;
+        }
+        .turismo__info {
+            background-image: linear-gradient(to right, #ffffffad, #bdb5b5d2);
+            border-radius: 3rem;
+            font-size: 2rem;
+            text-align: center;
+            margin: 0 auto;
+            padding: 2rem;
+            border: solid 2px #000000;
+        }
+    }
+    
+    @media (max-width: 768px) {
+        .turismo {
+            flex: 0 0 calc(100% - 2rem);
+            margin-right: 1rem;
+        }
+        .info-turismo {
+            width: 80%;
+        }
+    }
+
+    .turismo__enlace {
+        text-align: right;
+        margin: 1rem 0;
+        a {
+            font-size: 2rem;
+            color: #ffffff;
+            text-decoration: none;
+            background-color: rgb(158, 105, 5);
+            padding: .5rem;
+            border: solid 2px #000000;
+            border-radius: .5rem;
+            transition: background-color .3s;
+        }
+        a:hover {
+            background-color: #000000;
+        }
+    }
+    
+}
