@@ -282,6 +282,16 @@ form {
     background-color: #ffffff;
     border: solid .5rem #000000;
     margin: 2rem auto; }
+    .contenedor-alquiler .alquiler img,
+    .contenedor-alquiler .comida img,
+    .contenedor-alquiler .actividades img,
+    .contenedor-comida .alquiler img,
+    .contenedor-comida .comida img,
+    .contenedor-comida .actividades img,
+    .contenedor-actividades .alquiler img,
+    .contenedor-actividades .comida img,
+    .contenedor-actividades .actividades img {
+      height: 25rem; }
 
 @media (max-width: 1490px) {
   .contenedor-alquiler,
