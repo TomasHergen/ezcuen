@@ -211,7 +211,13 @@ form {
       font-size: 2rem; }
   @media (max-width: 992px) {
     form .form__datos {
-      flex-direction: column; } }
+      flex-direction: column; }
+      form .form__datos .form__datos--name,
+      form .form__datos .form__datos--correo {
+        display: flex;
+        flex-direction: column; }
+      form .form__datos input {
+        width: 100%; } }
   form .form__msj {
     font-size: 2rem;
     display: flex;
