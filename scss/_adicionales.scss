@@ -60,6 +60,16 @@
         img {
             height: 25rem;
         }
+        .info-alquiler,
+        .info-comida,
+        .info-actividades {
+            h3 {
+                margin-bottom: 1rem;
+            }
+            p {
+                font-size: 2.2rem;
+            }
+        }
     }
 }
 
